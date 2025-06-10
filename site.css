@@ -3,20 +3,47 @@ body {
 }
 
 .main {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-h1 {
-	font-family: Verdana;
-	color: white;
-}
-
-p {
+	margin-top: 40px;
+	padding: 10px 0px;
 	font-family: Verdana;
 	color: white;
 }
 
 .title {
 	text-align: center;
+}
+
+
+.navbar {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: midnightblue;
+	overflow-x: hidden;
+	padding-top: 20px;
+	font-family: Verdana;
+}
+
+.navbar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+}
+.navbar a:hover {
+	color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+	.navbar {
+		padding-top: 15px;
+	}
+
+	.navbar a {
+		font-size: 18px;
+	}
 }
