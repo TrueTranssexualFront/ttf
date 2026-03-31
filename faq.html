@@ -5,20 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>True Transsexual Front</title>
-	<ul class="navbar">
-		<li><a href="./">Home</a></li>
-		<li><a href="about">About</a></li>
-		<li><a href="tenets">Tenets</a></li>
-		<li><a href="help">How to Help</a></li>
-		<li><a href="faq">FAQ</a></li>
-		<li><a href="https://reddit.com/r/TrueTranssexualFront">Subreddit</a></li>
-		<li><a href="https://truetranssexualfront.tumblr.com">Blog</a></li>
-	</ul>
 </head>
 <body>
 
 
 	<div class="main">
+		<div id="navbar"></div><script>fetch("navbar.html").then(response => response.text()).then(data => {document.getElementById("navbar").innerHTML = data;});</script>
 		<h1 class="title">Frequently Asked Questions</h1>
 		<p>Many of these are made up (based on what I think people might ask) because not many questions have been asked yet. If you want to ask a question, please email me at <a href="mailto:us@truetranssexualfront.org">us@truetranssexualfront.org</a>.</p>
 
